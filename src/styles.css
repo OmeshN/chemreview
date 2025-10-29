@@ -1,0 +1,121 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 450px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.title {
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.input:focus,
+.textarea:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+.textarea {
+  resize: none;
+  height: 80px;
+}
+
+.stars {
+  margin-bottom: 20px;
+}
+
+.star {
+  font-size: 28px;
+  cursor: pointer;
+  color: #ccc;
+  transition: 0.3s;
+}
+
+.star.active {
+  color: #ffca28;
+  transform: scale(1.1);
+}
+
+.btn {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #45a049;
+}
+
+.exhibit-list {
+  margin-bottom: 20px;
+}
+
+.exhibit {
+  background: #f7f9fc;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.exhibit:hover {
+  background: #e9f5ec;
+  transform: scale(1.02);
+}
+
+.exhibit.selected {
+  border: 2px solid #4caf50;
+  background: #d7f8df;
+}
+
+.success-text {
+  color: #2e7d32;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.error-text {
+  color: #d32f2f;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
