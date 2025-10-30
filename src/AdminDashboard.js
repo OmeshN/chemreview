@@ -737,7 +737,7 @@ export default function AdminDashboard() {
             backgroundColor: "rgba(0, 15, 25, 0.9)",
             borderRadius: "15px",
             padding: "20px",
-            height: "160px",
+            height: "400px",
             border: "1px solid rgba(0,255,255,0.2)",
             boxShadow: "0 0 20px rgba(0,255,255,0.1)",
           }}
